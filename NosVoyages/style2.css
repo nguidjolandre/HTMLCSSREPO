@@ -28,6 +28,7 @@ header{
 color: rgb(238, 56, 11);
 font-weight: bold;
 font-size: 2rem;
+font-size: 1.2em;
 }
 ul{
     list-style: none;
@@ -93,6 +94,7 @@ ul li a:hover{
 }
 #steps ul{
     margin: 80px 0px
+    font-size: 1.2em;
 
 }
 #steps ul li{
@@ -102,6 +104,7 @@ ul li a:hover{
     text-align: center;
     margin-right: 150px;
     margin-left: 10px;
+    font-size: 1.2em;
 }
 #steps h4{
     text-transform: uppercase;
@@ -163,8 +166,9 @@ steps p{
         #possibility-2{
             background-image: url(./images/im2.jpg);
             margin-bottom: 20px;
-            right: 200px;
+            right: 300px;
             margin-right: 50px;
+            max-width: 75%;
             list-style-type: none;
             
         }
@@ -182,7 +186,7 @@ steps p{
         possibilities p{
             text-align: center;
             margin-bottom: 10px;
-        width: 100px;}
+        width: 150px;}
 
 
             .button-2{color: #fff;
@@ -199,8 +203,8 @@ steps p{
             }
 
 .bienvenue{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/beach3.jpg);
-    padding: 80px 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/beach1.jpg);
+    padding: 200px 50px;
     text-align: center;
     background-position: center;
     background-size: cover;
@@ -233,6 +237,18 @@ h1{
     border-radius: 10px;
     list-style-type: none;
 }
+.articles{
+    background-color: #02bfc6;
+    text-align: center;
+    padding: 40px 20px 60px 230px;
+}
+.articles h2 {
+    margin-top: 270px; /* Ajustez la valeur selon vos besoins */
+    margin-left: 10px;
+    color: #ffbf46;
+    margin-right: 600px;
+}
+
 
 
 

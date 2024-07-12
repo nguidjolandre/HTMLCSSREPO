@@ -124,3 +124,56 @@ h1{
 
 }
 
+/* <footer>
+        <div class=" contenu-footer">
+            <div  class="bloc footer-service">
+                <h3>Nos services</h3>
+                <ul class="liste-service">
+                    <li><a href="#">Hebergement</a></li>
+                    <li><a href="#">Noms de domaines</a></li>
+                    <li><a href="#">E-commerce</a></li>
+                    <li><a href="#">Machine Learning</a></li>
+                    <li><a href="#">Finances</a></li>
+                    <li><a href="#">Start-up</a></li>
+
+
+                </ul>
+            </div>
+
+
+            <div  class="bloc footer-service">
+                <h3>Restons en contact</h3>
+                <p>555-555-6667</p>
+                <p>supportclient@contact.com</p>
+                <p>6 rue de l'invention, Paris VII, 7589</p>
+            </div>
+
+            <div  class="bloc footer-service">
+                <h3>Horaires</h3>
+                <ul class="liste-horaire">
+                    <li>✅Lun 9h-18h</li>
+                    <li>✅Mar 9h-18h</li>
+                    <li>✅Mer 9h-18h</li>
+                    <li>✅Jeu 9h-18h</li>
+                    <li>✅Ven 9h-18h</li>
+                    <li>✅Sam 10h-16h</li>
+                    <li>❌Dim 9h-18h</li>
+
+
+                </ul>
+          </div>
+          <div  class="bloc footer-service">
+            <h3>Nos réseaux</h3>
+            <ul class="liste-service">
+                <li><a href="#"><img src="medias/fb.svg" alt="">Facebook/monsite</a></li>
+                <li><a href="#">Noms de domaines</a></li>
+                <li><a href="#">E-commerce</a></li>
+                <li><a href="#">Machine Learning</a></li>
+                <li><a href="#">Finances</a></li>
+                <li><a href="#">Start-up</a></li>
+
+
+            </ul>
+        </div>
+        </div>
+    </footer>*/
