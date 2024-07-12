@@ -9,9 +9,9 @@ main{
 }
 
 header{
-    /*background-image: url(./images/im2.jpg);*/
-    height: 100vh;
-    background-size: cover;
+    background-image: url(./images/im11.jpg)
+    height:200vh;
+    background-size:cover;
     
 }
 .logo a{
@@ -164,7 +164,7 @@ steps p{
     /*background-repeat: no-repeat;*/
     }
         #possibility-2{
-            background-image: url(./images/im2.jpg);
+            background-image: url(./images/im10.jpg);
             margin-bottom: 20px;
             right: 300px;
             margin-right: 50px;
@@ -203,7 +203,7 @@ steps p{
             }
 
 .bienvenue{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/beach1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/im6.jpg);
     padding: 200px 50px;
     text-align: center;
     background-position: center;
@@ -243,10 +243,11 @@ h1{
     padding: 40px 20px 60px 230px;
 }
 .articles h2 {
-    margin-top: 270px; /* Ajustez la valeur selon vos besoins */
+    margin-top: 250px; /* Ajustez la valeur selon vos besoins */
     margin-left: 10px;
     color: #ffbf46;
-    margin-right: 600px;
+    margin-right: 700px;
+    text-align: center;
 }
 
 
