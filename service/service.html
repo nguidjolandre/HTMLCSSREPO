@@ -3,94 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sélection de services</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Choisissez un service</h1>
-    <form >
-        <label for="services">Service :</label>
-        <select id="services" name="services">
-            <option value="reservation">Réservation en ligne</option>
-            <option value="promotions">Promotions et offres spéciales</option>
-            <option value="support">Service clientèle</option>
-            <option value="destinations">Informations sur les destinations</option>
-            <option value="assurance">Assurance voyage</option>
-            <option value="blog">Blog de voyage</option>
-            <option value="location">Location de voitures</option>
-        </select>
-        <br><br>
-        <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choix d'options</title>
-</head>
-<body>
-    <h1>Choisissez une option</h1>
-    <form action="/votre-page-de-traitement" method="POST">
-        <label>
-            <input type="radio" name="options" value="option1">
-            Option 1
-        </label><br>
-        <label>
-            <input type="radio" name="options" value="option2">
-            Option 2
-        </label><br>
-        <label>
-            <input type="radio" name="options" value="option3">
-            Option 3
-        </label><br><br>
-        <input type="submit" value="Valider">
-    </form>
+    <h1>Bienvenu sur notre plate forme de reservation en ligne</h1><br>
+    <h2>Nos Services de reservation</h2>
+  <ul class="services-list">
+    <li>Réservation de vols</li>
+    <li>Réservation d'hôtels</li>
+    <li>Location de voitures</li>
+    <li>Visites guidées</li>
+    <li>Assurance voyage</li>
+    <li>Planification de voyages sur mesure</li>
+    <li>Service de transfert aéroport</li>
+    <li>Guides touristiques locaux</li>
+  </ul>
 
-
-    <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choix d'options</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var form = document.getElementById('reservationForm');
-            form.addEventListener('submit', function(event) {
-                // Empêche l'action par défaut du formulaire (soumission directe)
-                event.preventDefault();
-                // Redirection vers la page de confirmation
-                window.location.href = '/confirmation-reservation.html';
-            });
-        });
-    </script>
-</head>
-<body>
-    <h1>Choisissez une option</h1>
-    <form id="reservationForm" action="/confirmation-reservation.html" method="POST">
-        <label>
-            <input type="radio" name="options" value="option1">
-            Option 1
-        </label><br>
-        <label>
-            <input type="radio" name="options" value="option2">
-            Option 2
-        </label><br>
-        <label>
-            <input type="radio" name="options" value="option3">
-            Option 3
-        </label><br><br>
-        <input type="submit" value="Valider">
-    </form>
-</body>
-</html>
-
-</body>
-</html>
-
-    </form>
-</body>
-</html>
-
-        <input type="submit" value="Choisir">
-    </form>
 </body>
 </html>
