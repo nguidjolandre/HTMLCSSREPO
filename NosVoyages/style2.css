@@ -249,6 +249,30 @@ h1{
     margin-right: 700px;
     text-align: center;
 }
+/*article{
+    width: 500px;
+}*/
+article img{
+    border-radius: 20px 0;
+}
+
+article p{
+    text-align: justify;
+    color: rgb(5, 36, 99);
+}
+.btn{
+    background-color: #29d9d5;
+    display: inline-block;
+    font-size: 1em;
+    padding: 10px 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    list-style: none;
+
+}
+h3{
+   color: #3532d0;
+}
 
 
 
