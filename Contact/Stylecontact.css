@@ -19,14 +19,24 @@
     max-width: 800px;
     text-align: center;
 }
+.contact .content a{
+    text-decoration: none;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+    background-color:  #47c0d0;
+    padding: 6px 15px;
+}
 .contact .content h2{
     font-size: 36px;
     font-weight: 900;
-   color:  #00cfeb; 
+    color:  #00cfeb; 
 }
 .contact .content p{
     font-weight: 900;
-    color: #b4d1df;
+    color: #c2d5de;
 }
 .container{
     width: 100%;
