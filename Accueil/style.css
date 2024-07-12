@@ -63,10 +63,10 @@ ul li a:hover{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.titre h2{
-    color: #fff ;
+/*.titre h2{
+    color: #495d0d ;
     font-size: 50px;
-}
+}*/
 .bouton{position: absolute;
     top: 70%;
     left: 50%;
@@ -85,18 +85,42 @@ ul li a:hover{
     color: #000;
 }
 .btn{
-    color: #29d9d5;
+    color: #9f720f;
     font-size: 14px;
-    border: 2px solid #29d9d5;
+    border: 2px solid #d92975;
     padding: 5px 20px;
 
 
 }
-.bouton a{
-    color: #fff;
-    text-decoration: none;
-    border: 1px solid #3a9d47;
-    left: 50%;  
-    padding: 10px 20px; 
-    list-style-type: none;
+.slog{
+    color: #8f610c;
+    font-size: 4em;
 }
+.bouton a{
+    background-color: #103f40;
+    /*color: #40d380;*/
+    text-decoration: none;
+    /*border: 1px solid #3a9d47;*/
+    left: 50%;  
+    padding: 5px 20px; 
+    list-style-type: none;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+h1{
+    color: #02bfc6;
+    padding: 250px 550px;
+}
+
+.bienvenue{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/beach3.jpg);
+    padding: 80px 20px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
