@@ -9,9 +9,9 @@ main{
 }
 
 header{
-    /*background-image: url(./images/im2.jpg);*/
-    height: 100vh;
-    background-size: cover;
+    background-image: url(./images/im11.jpg)
+    height:200vh;
+    background-size:cover;
     
 }
 .logo a{
@@ -243,10 +243,11 @@ h1{
     padding: 40px 20px 60px 230px;
 }
 .articles h2 {
-    margin-top: 270px; /* Ajustez la valeur selon vos besoins */
+    margin-top: 250px; /* Ajustez la valeur selon vos besoins */
     margin-left: 10px;
     color: #ffbf46;
-    margin-right: 600px;
+    margin-right: 700px;
+    text-align: center;
 }
 
 
