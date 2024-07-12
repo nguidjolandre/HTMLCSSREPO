@@ -189,21 +189,21 @@ steps p{
         width: 150px;}
 
 
-            .button-2{color: #fff;
+            .btn{color: #fff;
                 background-color: #ff7a00;
                 padding: 1px 5px;
                 border-radius: 1px;
                 list-style-type: none;
         
             }
-            .button-2 :hover{
+            .btn :hover{
                 color: #fff;
                 background-color: #02b802;
 
             }
 
 .bienvenue{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/voyage.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/plage3.jpg);
     padding: 200px 50px;
     text-align: center;
     background-position: center;
@@ -214,19 +214,30 @@ steps p{
 h1{
     color: #02bfc6;
 }
-.button-2{
+.btn{
     list-style-type: none;
 }
 .slogan{
-    color: hsl(39, 100%, 64%);
+    color: hwb(201 85% 7%);
     font-size: 2em;
 }
-.intro{
-    max-width: 400px;
-    color: white;
-    font-size: 1.2em;
-    margin: 20px auto;
-}
+    .intro{
+        max-width: 700px;
+        color: white;
+        font-size: 1.2em;
+        text-align: center;
+        margin: 20px auto;
+        padding: 20px 20px;
+    }ul li a:hover{
+        background:#cdcd19;
+        color: hsl(204, 18%, 64%);
+    }
+
+
+
+
+
+
 .btn{
 
     background-color: #02c6;
