@@ -164,7 +164,7 @@ steps p{
     /*background-repeat: no-repeat;*/
     }
         #possibility-2{
-            background-image: url(./images/im2.jpg);
+            background-image: url(./images/im10.jpg);
             margin-bottom: 20px;
             right: 300px;
             margin-right: 50px;
@@ -203,7 +203,7 @@ steps p{
             }
 
 .bienvenue{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/beach1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/im6.jpg);
     padding: 200px 50px;
     text-align: center;
     background-position: center;
