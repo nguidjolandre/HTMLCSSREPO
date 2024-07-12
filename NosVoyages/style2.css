@@ -203,7 +203,7 @@ steps p{
             }
 
 .bienvenue{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/im6.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/voyage.jpg);
     padding: 200px 50px;
     text-align: center;
     background-position: center;
@@ -218,11 +218,11 @@ h1{
     list-style-type: none;
 }
 .slogan{
-    color: #ffbf46;
-    font-size: 3em;
+    color: hsl(39, 100%, 64%);
+    font-size: 2em;
 }
 .intro{
-    max-width: 700px;
+    max-width: 400px;
     color: white;
     font-size: 1.2em;
     margin: 20px auto;
