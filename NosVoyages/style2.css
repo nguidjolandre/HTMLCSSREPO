@@ -9,7 +9,7 @@ main{
 }
 
 header{
-    background-image: url(./images/im2.jpg);
+    /*background-image: url(./images/im2.jpg);*/
     height: 100vh;
     background-size: cover;
     
@@ -28,6 +28,7 @@ header{
 color: rgb(238, 56, 11);
 font-weight: bold;
 font-size: 2rem;
+font-size: 1.2em;
 }
 ul{
     list-style: none;
@@ -93,6 +94,7 @@ ul li a:hover{
 }
 #steps ul{
     margin: 80px 0px
+    font-size: 1.2em;
 
 }
 #steps ul li{
@@ -102,10 +104,12 @@ ul li a:hover{
     text-align: center;
     margin-right: 150px;
     margin-left: 10px;
+    font-size: 1.2em;
 }
 #steps h4{
     text-transform: uppercase;
     margin-bottom: 20px;
+    
 }
 steps p{
     margin-bottom: 20px;
@@ -151,16 +155,22 @@ steps p{
         border-radius: 10px 0 0 10px;
         box-sizing: border-box;
         text-align: center;
+        list-style-type: none;
     }
     #possibility-1{
         background-image: url(./images/im5.jpg) ;
         margin-bottom: 100px;
-        margin-left: 100px;}
+        margin-left: 100px;
+    /*background-repeat: no-repeat;*/
+    }
         #possibility-2{
             background-image: url(./images/im2.jpg);
             margin-bottom: 20px;
-            right: 200px;
+            right: 300px;
             margin-right: 50px;
+            max-width: 75%;
+            list-style-type: none;
+            
         }
         
 
@@ -175,7 +185,8 @@ steps p{
 
         possibilities p{
             text-align: center;
-            margin-bottom: 10px;}
+            margin-bottom: 10px;
+        width: 150px;}
 
 
             .button-2{color: #fff;
@@ -190,6 +201,53 @@ steps p{
                 background-color: #02b802;
 
             }
+
+.bienvenue{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/beach1.jpg);
+    padding: 200px 50px;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h1{
+    color: #02bfc6;
+}
+.button-2{
+    list-style-type: none;
+}
+.slogan{
+    color: #ffbf46;
+    font-size: 3em;
+}
+.intro{
+    max-width: 700px;
+    color: white;
+    font-size: 1.2em;
+    margin: 20px auto;
+}
+.btn{
+
+    background-color: #02c6;
+    margin-top: 50px;
+    padding: 10px 30px;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    list-style-type: none;
+}
+.articles{
+    background-color: #02bfc6;
+    text-align: center;
+    padding: 40px 20px 60px 230px;
+}
+.articles h2 {
+    margin-top: 270px; /* Ajustez la valeur selon vos besoins */
+    margin-left: 10px;
+    color: #ffbf46;
+    margin-right: 600px;
+}
 
 
 
