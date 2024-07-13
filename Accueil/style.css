@@ -5,7 +5,7 @@ main{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -94,14 +94,14 @@ ul li a:hover{
 
 }
 .bouton a{
-    color: #fff;
+    color: hsl(197, 23%, 88%);
     text-decoration: none;
     border: 1px solid #3a9d47;
     left: 50%;  
-    padding: 10px 20px; 
+    padding: 5px 10px; 
     list-style-type: none;
     margin-top: 50px;
-    font-size: 1.5em;
+    font-size: 1em;
     display: inline-block;
 }.bienvenue{
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./images/beach1.jpg);
@@ -110,6 +110,7 @@ ul li a:hover{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-radius: 5px;
 }
 .intro{
     max-width: 700px;
@@ -127,3 +128,120 @@ ul li a:hover{
     font-size: 4em;
     font-weight: 400px;
 }
+footer{
+    background: #343434;
+    padding-top: 50px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 33.3%;
+
+}
+h3{
+    font-size: 10x;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.footer-content p{
+    width: 100px;
+    margin: 0;
+    padding: 7px;
+    color: #29d9d5;
+
+
+}
+.footer-content ul{
+   text-align: center;
+    
+
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 7px;
+    position: relative;
+
+
+}
+.list li:hover::before{
+    width: 10px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+   color: white;
+   font-size: 25px;
+}
+a{
+    text-decoration: none;
+
+}
+a :hover{
+    color: #f18930;
+
+
+}
+.social-icons i{
+    color: white;
+    font-size: 5px;
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    color: f18930;
+
+}
+.social-icons i:hover{
+    color: #f18930;
+    font-size: 5px;
+}
+.bottom-bar{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+
+}
+
+.bottom-bar p{
+    color: #343434;
+   
+    margin-top:0;
+    font-size: 20px;
+    padding: 7px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
