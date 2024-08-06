@@ -1,0 +1,8 @@
+/** changement des couleur */
+h1.style.color = "red"
+h1.backgrounwcolor ="green"
+
+// recuperation de la zone principale
+const imgPrincipale =document.querySelector("#mainImg")
+const imageOriginale =imgPrincipale.scr
+
